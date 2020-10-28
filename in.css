@@ -1,0 +1,257 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+/*NavBar--------------*/
+#Nav-Bar
+{
+
+/*    position: fixed;*/
+/*    overflow: hidden;*/
+
+}
+
+section
+{
+    padding-top: 65px;
+}
+
+.navbar-brand img
+{
+    height: 50px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+padding: 0 0px;
+}
+
+.navbar-nav  li a
+{
+    float: right;
+    text-align: left;
+   
+}
+
+.navbar-nav  li button
+{
+    
+   
+}
+
+
+.navbar-nav ul li a:hover
+{
+    color: darkcyan;
+}
+.nabvar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+
+.nav-link
+{
+    font-size: 17px;
+    font-weight: 600;
+  color: black;
+}
+/*Slider------------------*/
+.slider
+{
+    width: 100%;
+    
+}
+.carousel-caption
+{
+    top: 25%;
+    right: 70%;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+.carousel-indicators li
+{
+    color: black;
+}
+
+/*--About----*/
+#About
+{
+  
+}
+
+
+.AboutContent
+{
+    
+    
+}
+@media screen and (min-width:601px){
+    .AboutContent
+    {
+        font-size: 16px;
+        
+    }
+    
+}
+@media screen and (max-width:601px){
+    .AboutContent
+    {
+        font-size: 13px;
+    }
+
+}
+
+/*--ChitPlans----*/
+#ChitPlans
+{
+   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('Images/services.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #efefef!important;
+    text-align: center;
+    padding: 0px;
+   
+}
+.row services
+{
+  
+   
+}
+.col-md-3
+{
+   
+   
+    color: white;
+    padding: 10px;
+}
+.box
+{
+   border: 1px solid white; 
+border-radius: 10%;
+}
+/*------------What is AChit-------------*/
+
+#WAChit
+{
+   background-image:White;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #efefef!important;
+    text-align: center;
+   
+   
+}
+.col-md-4
+{
+   
+   
+    color: black;
+    padding: 10px;
+}
+.Servicebox
+{
+   border: 1px solid black; 
+border-radius: 2%;
+}
+
+/*-------------Interestedtojoin*----------*/
+
+.IContainer
+{
+    height: auto;
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+/*-------------FAQ'S*----------*/
+
+.FContainer
+{
+    height: auto;
+    margin: 0px;
+    background-color:darkkhaki; 
+    text-align: center;
+    padding: 20px;
+    
+    
+
+}
+.container
+{
+    padding: 10px;
+}
+details
+{
+    background-color:white;
+    box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align:left;
+    padding: 7px;
+}
+}
+.FAQBox
+{
+    border: 1px solid white; 
+border-radius: 10%;
+    padding: 10px;
+}
+
+::-webkit-details-marker{
+    
+   padding-left: 5px;
+}
+
+/*--------------contact------------------*/
+
+#Contact
+{
+   background-color:rgba(0,0,0,0.8); 
+      padding: 10px;
+}
+#Contact .col-md-6
+{
+   
+ 
+    text-align: center; 
+     
+      padding: 10px;
+    
+}
+
+.ContactBox
+{
+ 
+     color: white;
+    margin: 0px;
+    
+   
+}
+
+/*------------footer--------------------*/
+.footer
+{
+   
+   }
+.foot
+{
+    
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-weight: 100px;
+    height: 30px;
+}
+
